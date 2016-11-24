@@ -1,0 +1,14 @@
+[package]
+name = "arrlang"
+version = "0.1.0"
+authors = ["Louis Pilfold <louis@lpil.uk>"]
+
+[lib]
+name = "lib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "arrlang"
+path = "src/main.rs"
+
+[dependencies]
